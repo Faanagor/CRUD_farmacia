@@ -1,0 +1,14 @@
+# Ignorar entornos virtuales de Poetry
+*.venv/
+*.env
+
+# Ignorar contenedores y archivos temporales de Docker
+docker-compose.yml
+Dockerfile
+*.log
+__pycache__/
+*.pyc
+
+# Ignorar archivos de configuración de IDE
+.idea/
+.vscode/

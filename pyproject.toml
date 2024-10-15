@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "CRUD_farmacia"
+version = "0.1.0"
+description = "CRUD of a pharmacy and sales system using FastAPI and PostgreSQL"
+authors = ["Fabio Aguirre <faanagor@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.115.2"
+uvicorn = "^0.31.1"
+sqlalchemy = "^2.0.35"
+psycopg2-binary = "^2.9.9"
+alembic = "^1.13.3"
+pydantic = "^2.9.2"
+passlib = "^1.7.4"
+python-jose = "^3.3.0"
+cryptography = "^43.0.1"
+asyncpg = "^0.29.0"
+httpx = "^0.24.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.3"
+pytest-asyncio = "^0.18.0"
+pytest-mock = "^3.14.0"
+pytest-cov = "^5.0.0"
+flake8 = "^7.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
